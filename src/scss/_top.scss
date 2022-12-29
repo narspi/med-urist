@@ -1,0 +1,34 @@
+.top {
+  min-height: 100vh;
+  background-image: url(../img/top-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  color: #F5FDFF;
+  padding-top: 40px;
+  padding-bottom: 230px;
+
+  &__title {
+    width: fit-content;
+    margin-top: 165px;
+    margin-bottom: 93px;
+    background: linear-gradient(90deg, #bcf3ff 2.49%, #ebfbff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  &__descr {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    margin-top: 0;
+    margin-bottom: 113px;
+  }
+}
